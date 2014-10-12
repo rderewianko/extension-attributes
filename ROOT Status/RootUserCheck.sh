@@ -4,10 +4,10 @@
 
 if dscl . read /Users/root | grep -q AuthenticationAuthority; then
 	
-    echo "<return>Enabled</return>"
+    echo "<result>Enabled</result>"
 
 else
 
-    echo "<return>Disabled</return>"
+    echo "<result>Disabled</result>"
 
 fi
